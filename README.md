@@ -7,7 +7,7 @@ The aim is to utilise neural networks to analyse, given indicators in the data, 
 
 Originally the data were trained at dataset containing materials aimed for production of finish good. These materials have 1:1 relationship with the finish good, ie box packaging with printing of the finish good on it. The size of the original dataset is 23000x49. Current results are that the data are not strongly correlated, therefore sensitive feature selection needed to be introduced to remove noise, and that the data are highly imbalanced toward Standard class. Standard class constitutes 60% of the dataset. SMOTE was introduced to deal with the imbalanced classes.
 
-Currently the accuracy of the model is 67%, but initial overfitting towards standard class was addressed by inclusion of SMOTE and feature selection. Therefore the 
+Currently the accuracy of the model is 67%, but initial overfitting towards standard class was addressed by inclusion of SMOTE and feature selection. The final preprocessor and model are saved in model folder.
 
 ## Table of Contents
 - [Installation](#installation)
