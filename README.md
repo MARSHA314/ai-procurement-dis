@@ -26,7 +26,7 @@ Currently the accuracy of the model is 67%, but initial overfitting towards stan
     ```
 3. Install dependencies:
    
-   #Python version: 3.11.9 
+   Python version: 3.11.9 
     ```bash
     pip install -r requirements.txt
     ```
