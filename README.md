@@ -25,6 +25,7 @@ Currently the accuracy of the model is 67%, but initial overfitting towards stan
     cd your-repo-name
     ```
 3. Install dependencies:
+   
    #Python version: 3.11.9 
     ```bash
     pip install -r requirements.txt
